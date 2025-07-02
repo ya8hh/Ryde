@@ -3,7 +3,7 @@ import { Text, View } from "react-native";
 const TabsLayout = () => {
   return (
     <View>
-      <Text>_layout</Text>
+      <Text>_layoutTab</Text>
     </View>
   );
 };

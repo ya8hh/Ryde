@@ -3,7 +3,7 @@ import { Text, View } from "react-native";
 const _layout = () => {
   return (
     <View>
-      <Text>_layout</Text>
+      <Text>_layout root</Text>
     </View>
   );
 };
