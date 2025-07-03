@@ -1,11 +1,11 @@
-import { Text, View } from "react-native";
+import { Stack } from "expo-router";
 
-const _layout = () => {
+const InSideLayout = () => {
   return (
-    <View>
-      <Text>_layout root</Text>
-    </View>
+    <Stack>
+      <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+    </Stack>
   );
 };
 
-export default _layout;
+export default InSideLayout;

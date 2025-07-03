@@ -1,5 +1,6 @@
 {
   "expo": {
+    "jsEngine": "hermes",
     "name": "Ryde",
     "slug": "Ryde",
     "version": "1.0.0",
@@ -28,7 +29,10 @@
     },
     "plugins": [
       [
-        "expo-router"
+        "expo-router",
+        {
+          "origin" : "https://ryde.com/"
+        }
       ]
     ],
     "experiments": {
